@@ -2,8 +2,8 @@
   <main
     class="mt-10 md:mt-1 flex flex-col-reverse gap-8 items-center md:flex-row md:gap-16 md:justify-center min-h-[65vh] md:min-h-[80vh]">
     <div class="space-y-2 text-center md:text-left px-10">
-      <p class="text-amber-200">Hello World, I'm</p>
-      <h1 class="text-4xl font-bold md:text-5xl text-white fadein-up">Bagas Rakha</h1>
+      <p class="text-amber-200">Enchanté, je suis</p>
+      <h1 class="text-4xl font-bold md:text-5xl text-white fadein-up">Christopher <br> MBARAPA-SOKAMBI</h1>
       <div class="py-2">
         <h1
           class="typewrite text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-slate-100 to-yellow-500 md:text-2xl fadein-up"
@@ -11,7 +11,7 @@
           <span class="wrap">{{ txt }}</span>
         </h1>
       </div>
-      <p class="text-white pr-4 fade-in-from-left">Welcome to My personal website. <span class="wave">👋🏼</span></p>
+      <p class="text-white pr-4 fade-in-from-left">Bienvenue sur mon portfolio <span class="wave">👋🏾</span></p>
       <br>
       <!-- <button
         class="fadein-bot fade-500 flex items-center py-2 px-4 mx-auto text-sm font-medium rounded-lg border transition duration-300 md:py-2.5 md:px-5 md:mx-0 text-amber-200 border-amber-200 hover:bg-amber-200 hover:bg-opacity-10 bg-transparent focus:outline-none w-fit"><svg
@@ -24,9 +24,15 @@
           </path>
         </svg>Download Resume</button> -->
     </div>
-    <div class="flex justify-center md:justify-start fadein-right"><img alt="avatar" fetchpriority="high" width="300" height="300" decoding="async" data-nimg="1"
-        class="w-10/12 md:h-auto rounded-full border-4 border-amber-200 pict" src="https://i1.sndcdn.com/avatars-000214125831-5q6tdw-t500x500.jpg">
-    </div>
+    <div class="flex justify-center md:justify-start fadein-right">
+ <img
+  src="/img/img_avatar.png"
+  alt="Avatar"
+  fetchpriority="high"
+  decoding="async"
+  class="w-64 h-64 md:w-80 md:h-80 rounded-full border-4 border-amber-100 pict"
+/>
+</div>
   </main>
 </template>
 
@@ -35,7 +41,7 @@ export default {
   name: 'HomeView',
   data() {
     return {
-      toRotate: ["Web Developer", "Full-stack Engineer", "Informatics Student", "Tech Enthusiast"],
+      toRotate: ["Développeur Web","Ingénieur Full Stack","Étudiant en Informatique","Passionné de Technologie"],
       period: 2000,
       txt: '',
       loopNum: 0,

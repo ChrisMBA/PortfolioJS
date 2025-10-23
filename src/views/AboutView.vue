@@ -36,8 +36,8 @@ export default {
         },
         {
           id: 6,
-          name: 'Codeigniter',
-          imageUrl: 'https://cdn-peanutsquare.b-cdn.net/wp-content/uploads/2022/11/codeigniter-logo.png',
+          name: 'Symfony',
+          imageUrl: require('@/assets/symfony_logo.png'),
           status: 'Intermediate'
         },
         {
@@ -48,8 +48,8 @@ export default {
         },
         {
           id: 8,
-          name: 'AlpineJS',
-          imageUrl: 'https://avatars.githubusercontent.com/u/59030169?s=200&v=4',
+          name: 'Python',
+          imageUrl: require('@/assets/python_logo.png'),
           status: 'Beginner'
         },
         {
@@ -60,8 +60,8 @@ export default {
         },
         {
           id: 10,
-          name: 'Tailwind',
-          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg',
+          name: 'Java',
+          imageUrl: require('@/assets/java_logo.png'),
           status: 'Advance'
         },
         {
@@ -114,7 +114,7 @@ export default {
 
       <header>
         <div class="text-2xl font-bold text-white mb-5 fadein-bot title-section flex items-center">
-          About Me &nbsp;
+          Présentation &nbsp;
           <div class="h-[1px] w-32 bg-amber-200 md:w-96 aos-init aos-animate" data-aos="zoom-in-left"
             data-aos-duration="600"></div>
         </div>
@@ -122,24 +122,24 @@ export default {
 
       <section
         class="text-sm md:text-lg text-justify flex flex-col gap-4 md:flex-row md:gap-8 md:justify-left md:items-center">
-        <div class="flex justify-center">
-          <img class="w-9/12 rounded-full mb-3 fadein-up"
-            src="https://i1.sndcdn.com/avatars-000214125831-5q6tdw-t500x500.jpg" alt="Foto">
-        </div>
+        <div class="flex justify-center md:justify-start">
+    <img
+      src="/img/img_avatar.png"
+      alt="Avatar"
+      fetchpriority="high"
+      decoding="async"
+      class="w-64 h-64 md:w-80 md:h-80 rounded-full border-4 border-amber-100 shadow-lg mb-4 fadein-up"
+    />
+  </div>
         <div class="md:w-7/12">
           <p class="mb-3 md:mb-7 fadein-left fadeins-1">
-            &nbsp; &nbsp; &nbsp; Hi everyone! My name is Bagas Rakha Putra. I'm a web developer from Bogor, West Java. I
-            have 1 year of experience in back-end web development.
-            I really enjoy what I do right now, in my opinion, creating programs is not just a job, but also an art that
-            has
-            aesthetic value
+            &nbsp; &nbsp; &nbsp; Bonjour ! Moi, c’est Christopher Mbarapa-Sokambi, développeur web full-stack basé en Île-de-France. 
+                                  Passionné par le développement et les nouvelles technologies, je conçois et développe des sites et applications web performants, esthétiques.
           </p>
           <p class="mb-3 fadein-left fadeins-2">
-            &nbsp; &nbsp; &nbsp; My job is to build your website to be functional and user-friendly yet still attractive.
-            In addition, I provide a personal touch to your product and ensure that the website catches attention and is
-            easy to use.
-            My goal is to convey your message and identity in the most creative way. If you are interested in hiring me,
-            please contact the listed contact.
+            &nbsp; &nbsp; &nbsp; Fort de plusieurs expériences en développement web, j’interviens aussi bien sur le front-end que le back-end avec des technologies comme Symfony, PHP, JavaScript, MySQL, React, WordPress et Prestashop.
+                                  Pour moi, le code est une forme d’expression créative : chaque projet est l’occasion de donner vie à des solutions modernes, efficaces et sur mesure.
+                                  Si vous recherchez un développeur rigoureux, curieux et passionné, Contactez-moi
           </p>
         </div>
 
@@ -154,7 +154,7 @@ export default {
         <div class="text-2xl font-bold text-white mb-5 fadein-bot title-section flex items-center">
           <div class="h-[1px] w-10 bg-amber-200 md:w-20 aos-init aos-animate" data-aos="zoom-in-left"
             data-aos-duration="600"></div>
-          &nbsp; Skills
+          &nbsp; Hard Skills
         </div>
       </header>
       <section>

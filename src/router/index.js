@@ -12,7 +12,7 @@ const routes = [
     path: '/about',
     name: 'about',
     component: () => import('../views/AboutView.vue'),
-    meta: { title: 'About' }
+    meta: { title: 'Présentation' }
   },
   {
     path: '/portfolio',
@@ -40,7 +40,7 @@ const router = createRouter({
 })
 
 router.beforeEach((to, from, next) => {
-  document.title = to.meta.title + ' - bagasRakha();'; // Mengambil judul dari meta atau mengatur judul default jika tidak ada
+  document.title = to.meta.title + ' - Chris.mb'; // Mengambil judul dari meta atau mengatur judul default jika tidak ada
   next();
 });
 
