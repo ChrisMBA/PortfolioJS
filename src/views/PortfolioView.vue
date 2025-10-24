@@ -26,7 +26,7 @@ export default {
           id: 3,
           name: 'Epastelsoft',
           imageUrl: 'sistekdes',
-          status: 'Sistem Informasi dan Teknologi Desa, une application web pour aider le travail des gouvernements villageois dans l’administration, la gestion des données de population, les services communautaires, etc.',
+          status: 'Start-up dans laquelle j’ai réalisé mon stage en développement web. J’ai participé au développement d’une application web, en contribuant au back-end avec Symfony et PHP/MySQL, à la gestion des bases de données.',
           tech: 'Symfony 9, WordPress',
           github: 'null',
           demo: 'https://www.epastelsoft.com/'
