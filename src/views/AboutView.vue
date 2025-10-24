@@ -8,37 +8,37 @@ export default {
           id: 1,
           name: 'HTML',
           imageUrl: 'https://cdn-icons-png.flaticon.com/512/1051/1051277.png',
-          status: 'Advanced'
+          status: 'Advancé'
         },
         {
           id: 2,
           name: 'CSS',
           imageUrl: 'https://cdn-icons-png.flaticon.com/512/732/732190.png',
-          status: 'Advanced'
+          status: 'Advancé'
         },
         {
           id: 3,
           name: 'PHP',
           imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-php-2038871-1720084.png',
-          status: 'Advanced'
+          status: 'Intermédiaire'
         },
         {
           id: 4,
           name: 'Javascript',
           imageUrl: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png',
-          status: 'Advance'
+          status: 'Intermédiaire'
         },
         {
           id: 5,
           name: 'Laravel',
           imageUrl: 'https://cdn.worldvectorlogo.com/logos/laravel-2.svg',
-          status: 'Advance'
+          status: 'Notions'
         },
         {
           id: 6,
           name: 'Symfony',
           imageUrl: require('@/assets/symfony_logo.png'),
-          status: 'Intermediate'
+          status: 'Intermédiaire'
         },
         {
           id: 7,
@@ -50,19 +50,19 @@ export default {
           id: 8,
           name: 'Python',
           imageUrl: require('@/assets/python_logo.png'),
-          status: 'Beginner'
+          status: 'Notions'
         },
         {
           id: 9,
           name: 'NodeJS',
           imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-node-js-1174925.png',
-          status: 'Beginner'
+          status: 'Intermédiaire'
         },
         {
           id: 10,
           name: 'Java',
           imageUrl: require('@/assets/java_logo.png'),
-          status: 'Advance'
+          status: 'Notions'
         },
         {
           id: 11,
@@ -74,7 +74,7 @@ export default {
           id: 12,
           name: 'ReactJS',
           imageUrl: 'https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png',
-          status: 'Beginner'
+          status: 'Intermédiaire'
         }
       ],
       tools: [
@@ -82,25 +82,25 @@ export default {
           id: 1,
           name: 'Git',
           imageUrl: 'https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png',
-          status: 'Version Control'
+          status: 'Gestion de versions'
         },
         {
           id: 2,
           name: 'GitHub',
           imageUrl: 'https://cdn-icons-png.flaticon.com/512/25/25231.png',
-          status: 'Git Hosting'
+          status: 'Hébergement de code'
         },
         {
           id: 3,
           name: 'NPM',
           imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-npm-3-1175132.png',
-          status: 'Package Manager'
+          status: 'Gestion de paquets'
         },
         {
           id: 4,
           name: 'MySQL',
           imageUrl: 'https://cdn-icons-png.flaticon.com/512/5968/5968313.png',
-          status: 'Database'
+          status: 'Base de données'
         },
       ]
     };

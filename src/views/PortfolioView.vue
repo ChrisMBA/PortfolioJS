@@ -6,49 +6,31 @@ export default {
       items: [
         {
           id: 1,
-          name: 'Personal Website',
+          name: 'Portfolio Web',
           imageUrl: 'portfolio_v2',
-          status: 'My personal website, I created this website to display my profile, skills and projects. As well as my place to try new technology.',
+          status: 'Mon site personnel, j’ai créé ce site pour afficher mon profil, mes compétences et mes projets. C’est aussi mon espace pour essayer de nouvelles technologies.',
           tech: 'VueJS 3, Tailwind',
-          github: 'https://github.com/rakha-elctrnx/Portofolio-v2',
-          demo: 'https://bagasrakha.netlify.app/'
+          github: 'null',
+          demo: 'https://portfolio-js-puce.vercel.app/'
         },
         {
           id: 2,
-          name: 'Sahabat Muslim',
+          name: 'Technitalia',
           imageUrl: 'sahabatmuslim',
-          status: 'A website that has a responsive display to make it easier for Muslims to read the Quran from anywhere.',
-          tech: 'VueJS 3, Tailwind',
-          github: 'https://github.com/rakha-elctrnx/muslim-companion',
-          demo: 'https://sahabat-muslim.netlify.app/'
+          status: 'En charge du développement, de la maintenance et de la gestion technique du site Technitalia, en autonomie durant mon alternance et mon CDD.',
+          tech: 'Prestashop, Mysql',
+          github: 'null',
+          demo: 'https://technitalia.com/fr/'
         },
         {
           id: 3,
-          name: 'SISTEKDES',
+          name: 'Epastelsoft',
           imageUrl: 'sistekdes',
-          status: 'Sistem Informasi dan Teknologi Desa, a web application to assist village government work in administration, population data management, community services, etc.',
-          tech: 'Laravel 9, Bootstrap',
+          status: 'Sistem Informasi dan Teknologi Desa, une application web pour aider le travail des gouvernements villageois dans l’administration, la gestion des données de population, les services communautaires, etc.',
+          tech: 'Symfony 9, WordPress',
           github: 'null',
-          demo: 'null'
+          demo: 'https://www.epastelsoft.com/'
         },
-        {
-          id: 4,
-          name: 'Bumdesma',
-          imageUrl: 'bumdesma',
-          status: 'a web application used by village-owned enterprises at the sub-district level to make it easier for them in terms of accounting that is equipped with a microfinance balance.',
-          tech: 'Laravel 8, Bootstrap',
-          github: 'null',
-          demo: 'null'
-        },
-        {
-          id: 5,
-          name: 'SP2SE',
-          imageUrl: 'sp2se',
-          status: 'Sistem Percepatan Pelayanan Surat Elektronik, A web application to manage letters in the village.',
-          tech: 'Codeigniter 3, Bootstrap',
-          github: 'null',
-          demo: 'null'
-        }
       ]
     };
   }
@@ -61,9 +43,9 @@ export default {
         <div
           class="text-2xl font-bold text-white mb-10 fadein-bot title-section flex items-center justify-center flex-col">
           <!-- <div class="h-[1px] w-10 bg-amber-200 md:w-20 aos-init aos-animate"></div> -->
-          <h4>Past Project Experience</h4>
+          <h4>Expériences Professionnelles</h4>
           <h4 class="text-base font-normal text-transparent bg-clip-text bg-gradient-to-r from-slate-100 to-amber-300">
-            Explore the projects I've worked on so far</h4>
+            Explorez les projets sur lesquels j'ai travaillé jusqu'à présent</h4>
         </div>
       </header>
       <section>
