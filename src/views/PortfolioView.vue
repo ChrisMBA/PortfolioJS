@@ -8,8 +8,8 @@ export default {
           id: 1,
           name: 'Portfolio Web',
           imageUrl: 'portfolio_v2',
-          status: 'Mon site personnel, j’ai créé ce site pour afficher mon profil, mes compétences et mes projets. C’est aussi mon espace pour essayer de nouvelles technologies.',
-          tech: 'VueJS 3, Tailwind',
+          status: 'Mon site personnel, conçu pour présenter mon profil, mes compétences et mes projets.C’est aussi un espace où j’expérimente de nouvelles technologies et concepts.',
+          tech: 'VueJS 3, TailwindCSS',
           github: 'null',
           demo: 'https://portfolio-js-puce.vercel.app/'
         },
