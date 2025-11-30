@@ -6,7 +6,8 @@ const routes = [
     path: '/',
     name: 'home',
     component: HomeView,
-    meta: { title: 'Home' }
+    // The root page should show 'Chris.Mb' in the browser tab
+    meta: { title: 'Chris.Mb' }
   },
   {
     path: '/about',
@@ -40,7 +41,13 @@ const router = createRouter({
 })
 
 router.beforeEach((to, from, next) => {
-  document.title = to.meta.title + ' - Chris.mb'; // Mengambil judul dari meta atau mengatur judul default jika tidak ada
+  // If the route's title is already 'Chris.Mb', show it as-is; otherwise append the site suffix.
+  const siteSuffix = ' - Chris.Mb';
+  if (to && to.meta && to.meta.title) {
+    document.title = to.meta.title === 'Chris.Mb' ? 'Chris.Mb' : `${to.meta.title}${siteSuffix}`;
+  } else {
+    document.title = 'Chris.Mb';
+  }
   next();
 });
 

@@ -32,18 +32,18 @@ export default {
           demo: 'https://www.epastelsoft.com/'
         },
         {
-          id: 5,
+          id: 4,
           name: 'Météo IA',
-          imageUrl: 'meteo-ia',
+          imageUrl: 'meteoia',
           status: 'Application météo moderne combinant données OpenWeather et intelligence artificielle Groq. Animations météo dynamiques, interface responsive, mode jour/nuit et génération de conseils personnalisés via IA.',
           tech: 'React, Vite, Node.js',
           github: 'https://github.com/ChrisMBA/meteo-ia',
           demo: 'https://meteo-ia.vercel.app/'
         },
         {
-          id: 6,
-          name: "MusiStat(en cours)",
-          imageUrl: "musisstat", 
+          id: 5,
+          name: "MusiStat (en cours)",
+          imageUrl: "musistat",
           status:
             "Application web permettant d’afficher les statistiques musicales d’un utilisateur à partir des API Spotify et Deezer. Inclut un système d’authentification sécurisé, une base de données gérée, ainsi qu’un dashboard dynamique affichant les titres, artistes et albums les plus écoutés.",
           tech: "Next.js, TypeScript, TailwindCSS",
