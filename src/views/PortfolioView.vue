@@ -43,7 +43,7 @@ export default {
         {
           id: 6,
           name: "MusiStat(en cours)",
-          imageUrl: "musistat", 
+          imageUrl: "musisstat", 
           status:
             "Application web permettant d’afficher les statistiques musicales d’un utilisateur à partir des API Spotify et Deezer. Inclut un système d’authentification sécurisé, une base de données gérée, ainsi qu’un dashboard dynamique affichant les titres, artistes et albums les plus écoutés.",
           tech: "Next.js, TypeScript, TailwindCSS",
