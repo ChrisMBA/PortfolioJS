@@ -10,7 +10,7 @@ export default {
           imageUrl: 'portfolio_v2',
           status: 'Mon site personnel, conçu pour présenter mon profil, mes compétences et mes projets.C’est aussi un espace où j’expérimente de nouvelles technologies et concepts.',
           tech: 'VueJS 3, TailwindCSS',
-          github: 'null',
+          github: 'https://github.com/ChrisMBA/PortfolioJS',
           demo: 'https://portfolio-js-puce.vercel.app/'
         },
         {
@@ -30,6 +30,25 @@ export default {
           tech: 'Symfony 9, WordPress',
           github: 'null',
           demo: 'https://www.epastelsoft.com/'
+        },
+        {
+          id: 5,
+          name: 'Météo IA',
+          imageUrl: 'meteo-ia',
+          status: 'Application météo moderne combinant données OpenWeather et intelligence artificielle Groq. Animations météo dynamiques, interface responsive, mode jour/nuit et génération de conseils personnalisés via IA.',
+          tech: 'React, Vite, Node.js',
+          github: 'https://github.com/ChrisMBA/meteo-ia',
+          demo: 'https://meteo-ia.vercel.app/'
+        },
+        {
+          id: 6,
+          name: "MusiStat(en cours)",
+          imageUrl: "musistat", 
+          status:
+            "Application web permettant d’afficher les statistiques musicales d’un utilisateur à partir des API Spotify et Deezer. Inclut un système d’authentification sécurisé, une base de données gérée, ainsi qu’un dashboard dynamique affichant les titres, artistes et albums les plus écoutés.",
+          tech: "Next.js, TypeScript, TailwindCSS",
+          github: "https://github.com/ChrisMBA/MusiStat",
+          demo: null
         },
       ]
     };
